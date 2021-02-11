@@ -16,18 +16,30 @@ public class MainPageTests extends TestBase{
 
     @Test(priority = 2, groups = {"UI"})
     public void sloganValidationTest(){
-        String text = "CheapTrip.  Плати меньше, посети больше!";
+        String text = "CheapTrip. Pay less, travel more";
         assert mainPage.isSloganContainsText(text);
     }
 
     @Test(priority = 1, groups = {"Functional"})
-    public void changeLanguageValidationTest(){
-        mainPage.selectEnglishLanguage();
-        assert mainPage.isLanguageOnPageEnglish("Discover the cheapest way  to get anywhere combining plane, train, bus and rideshare ");
+    public void changeLanguageValidationTest() throws InterruptedException {
+        mainPage.selectRussianLanguage();
+        Thread.sleep(100);
+        assert mainPage.isLanguageOnPageRussian("Найдите самый дешевый способ добраться из города в город, сочетая самолет, поезд, автобус и совместные поездки на автомобиле");
+    }
+
+    @Test
+    public void searchRoute() {
+        mainPage.findRoute("Berlin","Moscow");
     }
 
     @Test
     public void start(){
         System.out.println("site opened");
+    }
+
+    @Test
+    public void searchContacts(){
+        mainPage.findContacts();
+        assert mainPage.isContactsIsVisible("Contacts");
     }
 }

@@ -67,7 +67,7 @@ public abstract class PageBase {
         return element.isDisplayed();
     }
 
-    public boolean isElementClicable(WebElement element){
+    public boolean isElementClickable(WebElement element){
         try {
             element.click();
         } catch (Exception e) {

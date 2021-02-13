@@ -1,0 +1,43 @@
+00:30:58.166 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentwith data []
+00:30:59.868 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresent
+00:30:59.868 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:31:05.097 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Augsburg, Ancona]
+00:31:06.431 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:31:06.431 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:31:12.362 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Berlin, Aosta]
+00:31:14.030 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:31:14.030 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:31:19.578 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Bremen, Bologna]
+00:31:21.320 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:31:21.320 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:31:26.196 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Cologne, Cagliari]
+00:31:27.452 [main] ERROR com.telran.cheaptrip.tests.TestBase - Failed: test method searchResultPresentDataProvider
+
+00:31:27.453 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:31:32.271 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Dortmund, Catania]
+00:31:34.241 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:31:34.242 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:31:47.259 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Dresden, Florence]
+00:31:49.603 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:31:49.603 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:31:57.309 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Duesseldorf, Genoa]
+00:31:58.697 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:31:58.698 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:32:03.884 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Frankfurt, Milan]
+00:32:05.270 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:32:05.270 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:32:09.880 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Friedrichshafen, Naples]
+00:32:11.056 [main] ERROR com.telran.cheaptrip.tests.TestBase - Failed: test method searchResultPresentDataProvider
+
+00:32:11.056 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:32:16.280 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Hamburg, Olbia]
+00:32:21.885 [main] ERROR com.telran.cheaptrip.tests.TestBase - Failed: test method searchResultPresentDataProvider
+
+00:32:21.885 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:32:26.829 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Hannover, Palermo]
+00:32:28.623 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:32:28.624 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:32:33.529 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Heringsdorf, Pescara]
+00:32:34.996 [main] ERROR com.telran.cheaptrip.tests.TestBase - Failed: test method searchResultPresentDataProvider
+
+00:32:34.996 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================

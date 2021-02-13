@@ -6,13 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dd27161e-b74e-4e3b-b92d-cdbca77fdf26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/pages/MainPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/pages/MainPageHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/pages/PageBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/tests/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/tests/MainPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/tests/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/pages/MainPageHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/pages/MainPageHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/pages/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/pages/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/tests/MainPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/tests/MainPageTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/tests/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -38,7 +46,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1oHYQnwiNXjw0L6YRaaZzAM2a3F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,32 +60,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="TestNG.MainPageTests.searchRoute">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/anastasiaivanova/IdeaProjects/Github/CheapTripMaven/src/test/resources/testing-searchRoute.xml">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageTests.changeLanguageValidationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CheapTripMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.cheaptrip.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.cheaptrip.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.cheaptrip.tests.MainPageTests" />
-      <option name="METHOD_NAME" value="changeLanguageValidationTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -100,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTests.searchRoute" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.searchResultPresent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CheapTripMaven" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +112,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telran.cheaptrip.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.cheaptrip.tests.MainPageTests" />
-      <option name="METHOD_NAME" value="searchRoute" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.cheaptrip.tests.SearchTests" />
+      <option name="METHOD_NAME" value="searchResultPresent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTests.sloganValidationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.searchResultPresentDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CheapTripMaven" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telran.cheaptrip.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.cheaptrip.tests.MainPageTests" />
-      <option name="METHOD_NAME" value="sloganValidationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.cheaptrip.tests.SearchTests" />
+      <option name="METHOD_NAME" value="searchResultPresentDataProvider" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,18 +139,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTests.start" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/anastasiaivanova/IdeaProjects/Github/CheapTripMaven/src/test/resources/testing-contacts.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CheapTripMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.cheaptrip.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.cheaptrip.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.cheaptrip.tests.MainPageTests" />
-      <option name="METHOD_NAME" value="start" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing-contacts.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/anastasiaivanova/IdeaProjects/Github/CheapTripMaven/src/test/resources/testing-searchRoute.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CheapTripMaven" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing-searchRoute.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainPageTests.searchRoute" />
+        <item itemvalue="TestNG./Users/anastasiaivanova/IdeaProjects/Github/CheapTripMaven/src/test/resources/testing-searchRoute.xml" />
+        <item itemvalue="TestNG./Users/anastasiaivanova/IdeaProjects/Github/CheapTripMaven/src/test/resources/testing-contacts.xml" />
+        <item itemvalue="TestNG.SearchTests.searchResultPresentDataProvider" />
         <item itemvalue="TestNG.MainPageTests.searchContacts" />
-        <item itemvalue="TestNG.MainPageTests.changeLanguageValidationTest" />
-        <item itemvalue="TestNG.MainPageTests.sloganValidationTest" />
-        <item itemvalue="TestNG.MainPageTests.start" />
+        <item itemvalue="TestNG.SearchTests.searchResultPresent" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +178,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612944970427</updated>
       <workItem from="1612944973286" duration="417000" />
-      <workItem from="1612945406716" duration="13701000" />
+      <workItem from="1612945406716" duration="17792000" />
+      <workItem from="1613196003303" duration="22909000" />
     </task>
     <servers />
   </component>
@@ -190,5 +196,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

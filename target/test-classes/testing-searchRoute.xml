@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SearchRoute" verbose="1">
+    <test name="TestTwo">
+        <classes>
+            <class name="com.telran.cheaptrip.tests.SearchTests">
+            </class>
+            <class name="com.telran.cheaptrip.tests.MainPageTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>

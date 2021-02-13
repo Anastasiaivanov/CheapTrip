@@ -5,17 +5,17 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class MainPageTests extends TestBase{
+public class MainPageTests extends TestBase {
 
     MainPageHelper mainPage;
 
     @BeforeMethod
-    public void initTest(){
-        mainPage= PageFactory.initElements(driver,MainPageHelper.class);
+    public void initTest() {
+        mainPage = PageFactory.initElements(driver, MainPageHelper.class);
     }
 
     @Test(priority = 2, groups = {"UI"})
-    public void sloganValidationTest(){
+    public void sloganValidationTest() {
         String text = "CheapTrip. Pay less, travel more";
         assert mainPage.isSloganContainsText(text);
     }
@@ -29,16 +29,16 @@ public class MainPageTests extends TestBase{
 
     @Test
     public void searchRoute() {
-        mainPage.findRoute("Berlin","Moscow");
+        mainPage.findRoute("Berlin", "Moscow");
     }
 
     @Test
-    public void start(){
+    public void start() {
         System.out.println("site opened");
     }
 
     @Test
-    public void searchContacts(){
+    public void searchContacts() {
         mainPage.findContacts();
         assert mainPage.isContactsIsVisible("Contacts");
     }

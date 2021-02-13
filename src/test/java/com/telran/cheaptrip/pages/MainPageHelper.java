@@ -27,13 +27,13 @@ public class MainPageHelper extends PageBase {
     @FindBy(tagName = "ion-card-title")
     WebElement title;
 
-    @FindBy(css = "input[name='ion-input-0']")
+    @FindBy(name = "ion-input-0")
     WebElement fromWhere;
 
-    @FindBy(css = "input[name='ion-input-1']")
+    @FindBy(name = "ion-input-1")
     WebElement toWhere;
 
-    @FindBy(css = ".ion-color.ion-color-primary.md.button.button-small.button-solid.ion-activatable.ion-focusable.hydrated")
+    @FindBy(css = "ion-button.ion-color-primary")
     WebElement letsGoButton;
 
     @FindBy(css = ".md.button.in-toolbar.in-toolbar-color.ion-activatable.ion-focusable.hydrated")
@@ -42,8 +42,14 @@ public class MainPageHelper extends PageBase {
     @FindBy(xpath = "//*[contains(text(),'Contacts')]")
     WebElement contacts;
 
-    @FindBy(css = ".autocomplete.item.md.ion-focusable.hydrated")
-    List<WebElement> choiceFromList;
+    @FindBy(xpath = "//ion-item//ion-label[@id='ion-input-0-lbl']//..//..//ion-item//ion-list")
+    WebElement submitCityFrom;
+
+    @FindBy(xpath = "//ion-item//ion-label[@id='ion-input-1-lbl']//..//..//ion-item//ion-list")
+    WebElement submitCityTo;
+
+    @FindBy(css = ".city")
+    List<WebElement> resultsList;
 
     public boolean isSloganContainsText(String text) {
         return slogan.getText().contains(text);
@@ -61,19 +67,39 @@ public class MainPageHelper extends PageBase {
 
     public void findRoute(String fromCity, String toCity) {
         inputTextToField(fromWhere, fromCity);
-        choiceFromList.get(0).click();
+        submitCityFrom.click();
         inputTextToField(toWhere, toCity);
-        choiceFromList.get(0).click();
+        submitCityTo.click();
         letsGoButton.click();
     }
 
     public void findContacts() {
         hamburger.click();
-        waitUntilElementVisible(contacts,3);
+        waitUntilElementVisible(contacts, 3);
         contacts.click();
     }
 
     public boolean isContactsIsVisible(String text) {
         return contacts.getText().contains(text);
+    }
+
+    public void inputCityFromField(String cityFrom) {
+        inputTextToField(fromWhere, cityFrom);
+        waitUntilElementVisible(submitCityFrom, 5);
+        submitCityFrom.click();
+    }
+
+    public void inputCityToField(String cityTo) {
+        inputTextToField(toWhere, cityTo);
+        waitUntilElementVisible(submitCityTo, 5);
+        submitCityTo.click();
+    }
+
+    public void clickOnLetsGoButton() {
+        letsGoButton.click();
+    }
+
+    public boolean searchResultIsDisplayed() {
+        return resultsList.size()>0;
     }
 }

@@ -1,0 +1,18 @@
+00:37:14.208 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentwith data []
+00:37:15.812 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresent
+00:37:15.813 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:37:21.119 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Augsburg, Ancona]
+00:37:22.415 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:37:22.415 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:37:28.030 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Berlin, Aosta]
+00:37:29.328 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:37:29.328 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:37:34.863 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Bremen, Bologna]
+00:37:36.229 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:37:36.230 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:37:42.277 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Dortmund, Catania]
+00:37:43.644 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:37:43.645 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:37:48.475 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Dresden, Florence]
+00:37:49.863 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:37:49.866 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================

@@ -4,13 +4,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
 
 import java.util.List;
 
 public abstract class PageBase {
 
     protected WebDriver driver;
-    // Logger logger = Logger.getLogger(TestBase.class.getName());
+
     public PageBase(WebDriver driver) {
         this.driver = driver;
     }
@@ -27,18 +28,18 @@ public abstract class PageBase {
         }
     }
 
-    public void waitUntilElementVisible (WebElement element, int time){
+    public void waitUntilElementVisible(WebElement element, int time) {
         try {
             new WebDriverWait(driver, time).until(ExpectedConditions.visibilityOf(element));
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public void waitUntilAllElementsVisible (List<WebElement> elements, int time){
+    public void waitUntilAllElementsVisible(List<WebElement> elements, int time) {
         try {
             new WebDriverWait(driver, time).until(ExpectedConditions.visibilityOfAllElements(elements));
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -53,9 +54,9 @@ public abstract class PageBase {
         }
     }
 
-    public void checkIn (WebElement element){
+    public void checkIn(WebElement element) {
         try {
-            if ( !element.isSelected() ){
+            if (!element.isSelected()) {
                 element.click();
             }
         } catch (Exception e) {
@@ -63,11 +64,11 @@ public abstract class PageBase {
         }
     }
 
-    public boolean isElementPresent(WebElement element){
+    public boolean isElementPresent(WebElement element) {
         return element.isDisplayed();
     }
 
-    public boolean isElementClickable(WebElement element){
+    public boolean isElementClickable(WebElement element) {
         try {
             element.click();
         } catch (Exception e) {

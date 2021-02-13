@@ -6,11 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="dd27161e-b74e-4e3b-b92d-cdbca77fdf26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-14T003706.log" beforeDir="false" afterPath="$PROJECT_DIR$/log-14T003706.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/pages/MainPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/pages/MainPageHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/pages/PageBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/tests/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/tests/MainPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/cheaptrip/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CitiesToTravel1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CitiesToTravel1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CitiesToTravel1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CitiesToTravel1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/pages/MainPageHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/pages/MainPageHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/pages/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/pages/PageBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/telran/cheaptrip/tests/TestBase.class" afterDir="false" />
@@ -179,7 +182,7 @@
       <updated>1612944970427</updated>
       <workItem from="1612944973286" duration="417000" />
       <workItem from="1612945406716" duration="17792000" />
-      <workItem from="1613196003303" duration="22909000" />
+      <workItem from="1613196003303" duration="23212000" />
     </task>
     <servers />
   </component>

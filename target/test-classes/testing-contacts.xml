@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SearchContacts" verbose="1">
+    <test name="Regression">
+        <classes>
+            <class name="com.telran.cheaptrip.tests.MainPageTests">
+                <methods>
+                    <exclude name="searchRoute"/>
+                    <exclude name="start"/>
+                    <exclude name="changeLanguageValidationTest"/>
+                    <exclude name="sloganValidationTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

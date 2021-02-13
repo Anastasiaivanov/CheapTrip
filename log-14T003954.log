@@ -1,0 +1,46 @@
+00:40:05.159 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentwith data []
+00:40:08.026 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresent
+00:40:08.026 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:40:15.872 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Augsburg, Ancona]
+00:40:17.830 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:40:17.830 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:40:23.808 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Berlin, Aosta]
+00:40:25.224 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:40:25.225 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:40:30.650 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Bremen, Bologna]
+00:40:32.242 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:40:32.243 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:40:37.612 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Dortmund, Catania]
+00:40:39.010 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:40:39.011 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:40:43.630 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Dresden, Florence]
+00:40:44.947 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:40:44.947 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:40:50.161 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Duesseldorf, Genoa]
+00:40:51.486 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:40:51.486 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:40:56.572 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Frankfurt, Milan]
+00:40:57.883 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:40:57.883 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:41:03.019 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Hamburg, Olbia]
+00:41:04.146 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:41:04.146 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:41:08.721 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchResultPresentDataProviderwith data [Hannover, Palermo]
+00:41:10.228 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchResultPresentDataProvider
+00:41:10.229 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:41:15.588 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchContactswith data []
+00:41:16.196 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchContacts
+00:41:16.196 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:41:21.519 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test searchRoutewith data []
+00:41:23.122 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method searchRoute
+00:41:23.122 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:41:29.092 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test startwith data []
+00:41:29.098 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method start
+00:41:29.098 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:41:34.271 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test changeLanguageValidationTestwith data []
+00:41:38.765 [main] ERROR com.telran.cheaptrip.tests.TestBase - Failed: test method changeLanguageValidationTest
+
+00:41:38.770 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================
+00:41:44.496 [main] INFO  com.telran.cheaptrip.tests.TestBase - Start test sloganValidationTestwith data []
+00:41:44.585 [main] INFO  com.telran.cheaptrip.tests.TestBase - Passed: test method sloganValidationTest
+00:41:44.586 [main] INFO  com.telran.cheaptrip.tests.TestBase - ==============================

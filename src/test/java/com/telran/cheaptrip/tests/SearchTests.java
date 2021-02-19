@@ -1,6 +1,7 @@
 package com.telran.cheaptrip.tests;
 
 import com.telran.cheaptrip.pages.MainPageHelper;
+import com.telran.cheaptrip.util.DataProviders;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.slf4j.Logger;
-
 import java.util.List;
 
 public abstract class PageBase {
@@ -78,3 +76,4 @@ public abstract class PageBase {
         return true;
     }
 }
+

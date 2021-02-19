@@ -29,7 +29,7 @@ public class TestBase {
         if (result.isSuccess()) {
             logger.info("Passed: test method " + result.getMethod().getMethodName());
         } else {
-            logger.error("Failed: test method " + result.getMethod().getMethodName() + "\n");
+            logger.error("Failed: test method " + result.getMethod().getMethodName());
         }
         logger.info("==============================");
     }

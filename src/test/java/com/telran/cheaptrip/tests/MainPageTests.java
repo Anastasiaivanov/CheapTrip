@@ -37,9 +37,18 @@ public class MainPageTests extends TestBase {
         System.out.println("site opened");
     }
 
-    @Test
-    public void searchContacts() {
+    @Test(priority = 1, groups = {"Functional"})
+    public void searchContactsTest() {
         mainPage.findContacts();
+        mainPage.takeScreenshot();
         assert mainPage.isContactsIsVisible("Contacts");
     }
+
+    @Test
+    public void changeCurrencyTest() {
+        mainPage.changeCurrency();
+        //assert mainPage.isNeededCurrencyIsPresent("USD");
+    }
+
+
 }

@@ -1,9 +1,14 @@
 package com.telran.cheaptrip.pages;
 
+import com.google.common.io.Files;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 public class MainPageHelper extends PageBase {
@@ -51,6 +56,15 @@ public class MainPageHelper extends PageBase {
     @FindBy(css = ".city")
     List<WebElement> resultsList;
 
+    @FindBy(css = ".select.buttons-first-slot.sc-ion-buttons-md-h.sc-ion-buttons-md-s.md.hydrated")
+    WebElement currencyButton;
+
+    @FindBy(css = ".popover-content.sc-ion-popover-md")
+    List<WebElement> currencyList;
+
+    @FindBy(css = ".sc-ion-select-popover.md.in-item.interactive.radio-checked.hydrated")
+    WebElement currencyUsd;
+
     public boolean isSloganContainsText(String text) {
         return slogan.getText().contains(text);
     }
@@ -83,6 +97,10 @@ public class MainPageHelper extends PageBase {
         return contacts.getText().contains(text);
     }
 
+    public boolean isNeededCurrencyIsPresent(String text){
+        return currencyButton.getText().contains(text);
+    }
+
     public void inputCityFromField(String cityFrom) {
         inputTextToField(fromWhere, cityFrom);
         waitUntilElementVisible(submitCityFrom, 5);
@@ -100,6 +118,23 @@ public class MainPageHelper extends PageBase {
     }
 
     public boolean searchResultIsDisplayed() {
-        return resultsList.size()>0;
+        return resultsList.size() > 0;
+    }
+
+    public void changeCurrency() {
+        currencyButton.click();
+        waitUntilElementVisible(currencyUsd,5);
+        currencyList.get(1).click();
+    }
+
+    public String takeScreenshot() {
+        File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File("screenshot" + System.currentTimeMillis() + ".png");
+        try {
+            Files.copy(tmp, screenshot);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return screenshot.getAbsolutePath();
     }
 }

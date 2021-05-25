@@ -14,6 +14,7 @@ public class DataProviders {
     @DataProvider
     public Iterator<Object[]> routeToSearch() throws IOException {
         List<Object[]> list = new ArrayList<>();
+
         BufferedReader reader =
                 new BufferedReader(new FileReader("src/test/resources/CitiesToTravel1.csv"));
         String line = reader.readLine();
